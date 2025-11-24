@@ -2,7 +2,7 @@ Using a PPX Preprocessor
 ========================
 
 Our calculator is pretty much opaque: we feed it a string, and it displays a
-result (on an error message), but we have now way to know what the internal expression looks like.
+result (on an error message), but we have no way to know what the internal expression looks like.
 
 In this chapter, we're going to use a `ppx` deriver to generate a `pp_expr`
 function that can display expressions.
